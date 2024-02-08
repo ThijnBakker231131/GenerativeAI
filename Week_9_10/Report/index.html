@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class='box'>
+        <div class='box-inner'>
+            <h1 class="top-right">by: Thijn Bakker</h1>
+            <h1 class="title">Generative AI challenge</h1>
+            <br>
+            <h2 class="introduction">Hello, good to see you here!</h2>
+            <h2 class="introduction">This is my explanation on how my challenge went when working with stable diffusion models for the first time.</h2>
+            <br>
+            <br>
+            <h2 class="steps">&#x2022 Step 1: Understanding Diffusion Models</h2>
+            <br>
+            <h4 class="step_text">We started with the research of understanding diffusion models.</h4>
+            <h4 class="step_text">This was really interesting. <a href="https://www.youtube.com/watch?v=kzxz8CO_oG4">This</a> explanation was the most clear and helped me with understanding the main use of stable diffusion.</h4>
+            <br>
+            <br>
+            <h2 class="steps">&#x2022 Step 2: Methods for Fine-Tuning Stable Diffusion</h2>
+            <br>
+            <h4 class="step_text">There were a lot of different Fine-Tining models that we could have chosen. But we found one that worked for us. This was very problematic at first because, the whole team thought we had to do it in Visual Studio Code. In the end I found out that we had a JupyterLab environment running for us. This was a game changer and we were now finally able to start. Without any GPU or CPU errors that we first encountered in Visual Studio Code. </h4>
+            <br>
+            <h4 class="step_text">The model that worked for us was given by the <a href="https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora">Data Camp tutorial.</a> This tutorial was easy to follow and gave us a lot of posibilities to improve our model.</h4>
+            <br>
+            <br>
+            <h2 class="steps">&#x2022 Step 3: Create a Dataset</h2>
+            <br>
+            <h4 class="step_text">For our dataset we wanted to use a pixel type game as a reference. This would make later creation easier and we thought it looked cute.</h4>
+            <h4 class="step_text">Here are some of the pictures we used:</h4>
+            <br>
+            <br>
+            <img src="Game Assets/Characters/Mage.gif" alt="Mage animation"><img src="Game Assets/Characters/Assasin.gif" alt="Mage animation" align="right"> 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="steps">&#x2022 Step 4: Fine-tuning Stable Diffusion</h2>
+            <br>
+            <h4 class="step_text">The Fine-tuning was also shown in the <a href="https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora">Data Camp tutorial.</a> We did not use it and just used the normal model that was given. </h4>
+            <h4 class="step_text">This is because we realized to late that we had to train it ourselfs. We just had way to many issues with even the setting up.</h4>
+            <h4 class="step_text"> I really want to still do this so if i have time I will!</h4>
+            <br>
+            <br>
+            <h2 class="steps">&#x2022 Step 5: Evaluating the Results</h2>
+            <br>
+            <h4 class="step_text">So sadly here are the results of the normal model we used! Still glad that everything worked like we wanted.</h4>
+            <br>
+            <h3>Failed Characters:</h3>
+            <br>
+            <img src="Game Assets/Characters/mage1.png" alt="Mage image" height="300px"> <img src="Game Assets/Characters/assasin2.png" alt="Assasin image" height="300px"><img src="Game Assets/Characters/orc.png" alt="orc image" height="300px"><img src="Game Assets/Characters/viking1.png" alt="Viking image" height="300px">
+            <br>
+            <h3>Good Characters:</h3>
+            <br>
+            <img src="Game Assets/Characters/transparent-mage-good.png" alt="Mage image" height="300px"> <img src="Game Assets/Characters/transparent-assasin-good.png" alt="Assasin image" height="300px"><img src="Game Assets/Characters/transparent-orc-good.png" alt="Orc image" height="300px"><img src="Game Assets/Characters/transparent-viking-good.png" alt="Viking image" height="300px">
+            <br>
+            <h3>Backgrounds:</h3>
+            <br>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+:root {
+  --color-alpha: #a2abe6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  height: 100%;
+  background: radial-gradient(rgb(17, 76, 124), #000);
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  
+}
+
+.top-right {
+    text-align: right;
+    font-size: 18px;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.introduction {
+    font-size: 21px;
+}
+.steps {
+    font-style: italic;
+}
+.step_text {
+    font-size: 18px;
+}
+.box {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 1500px;
+  padding: 5px;
+  border: 2px solid var(--color-alpha);
+}
+
+.box:before,
+.box:after {
+  content: "•";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  color: var(--color-alpha);
+  border: 2px solid var(--color-alpha);
+  line-height: 12px;
+  text-align: center;
+}
+
+.box:before {
+  left: 5px;
+  top: 5px;
+}
+
+.box:after {
+  right: 5px;
+  top: 5px;
+}
+
+.box .box-inner {
+  position: relative;
+  border: 2px solid var(--color-alpha);
+  padding: 40px;
+}
+
+.box .box-inner:before,
+.box .box-inner:after {
+  content: "•";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  color: var(--color-alpha);
+  border: 2px solid var(--color-alpha);
+  line-height: 12px;
+  text-align: center;
+}
+
+.box .box-inner:before {
+  left: -2px;
+  bottom: -2px;
+}
+
+.box .box-inner:after {
+  right: -2px;
+  bottom: -2px;
+}
